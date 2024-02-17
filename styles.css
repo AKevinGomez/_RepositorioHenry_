@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(99, 0, 0);
+    color: blanchedalmond;
+}
+
+h1 {
+    display: inline-block;
+    border: 10px solid rgb(168, 37, 168);
+    border-radius: 30%;
+    margin: 20px 20px;
+    margin-left: 30%;
+}
+
+.cajas {
+    border: 5px solid black;
+    border-radius: 35%;
+    background-color: blue;
+    padding-top: 1em;
+    width: 10em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.cajas:hover{
+    background-color: rgb(255, 18, 57);
+    transition: 0.3s;
+}
+
+#contenedor-cajas {
+    background-color: indigo;
+    border: 5px solid black;
+    border-radius: 10%;
+    width: 85vw;
+    margin: auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
